@@ -1,5 +1,7 @@
 
+#[derive(Clone, Copy, Debug)]
+#[derive(PartialEq)]
 pub struct LogRecordPos {
-    file_id: u32,
-    offset: u64,
+    pub file_id: u32,
+    pub offset: u64,
 }
